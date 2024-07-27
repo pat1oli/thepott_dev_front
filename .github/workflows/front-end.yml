@@ -27,4 +27,3 @@ jobs:
       DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
       AWS_REGION: 'us-east-1'
       PATHS: "/"
-      SOURCE_DIR: './src'
