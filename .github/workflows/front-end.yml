@@ -26,5 +26,5 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
       AWS_REGION: 'us-east-1'
-      PATHS: "./src"
+      PATHS: "/*"
       SOURCE_DIR: './src'
