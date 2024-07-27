@@ -18,7 +18,7 @@ jobs:
         uses: jakejarvis/s3-sync-action@master
       
       - name: Invalidate Cloudfront cache
-        uses: chetan/invalidte-cloudfront-action@v2
+        uses: chetan/invalidate-cloudfront-action@v2
     
     env:
       AWS_S3_BUCKET: ${{ secrets.AWS_s3_BUCKET }}
